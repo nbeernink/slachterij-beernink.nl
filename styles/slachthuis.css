@@ -1,0 +1,178 @@
+body{
+	background: #FFF8C7 url("../images/background-slice.png") repeat-x;
+	color: #444444;
+	font-family:"lucida grande",geneva,verdana,arial,helvetica,sans-serif;
+	font-size:76%;
+	line-height:1.5;
+	margin: 0% 5% 0 5%;
+}
+
+h1, h2{
+	font-family:"century gothic","trebuchet ms",helvetica,arial,geneva,sans-serif;
+	color: #cc0000;
+}
+
+h1{
+	background: url("../images/logo.png")  no-repeat;
+	width: 350px;
+	height: 100px;
+	margin-left: 3em;
+}
+
+h1 span{display:none;}
+h2{
+	font-size:1.8em;
+	clear:both;
+	padding-top: 0.5em;
+	margin: 0;
+}
+
+div#content{
+	background: #ffffe1;
+	border-top: 2px solid #de595a;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	width: 75%;
+	margin: 50px auto 2% auto;
+	padding: 2% 5%;
+}
+
+div#first-column{
+	float:left;
+	width: 50%;
+	margin-bottom: 2%;
+}
+
+div#second-column{
+	float: right;
+	width: 45%;
+}
+
+div#eeg{
+	background: url("../images/eeg494.png") no-repeat;
+	width: 71px;
+	height: 50px;
+	position: fixed;
+	left: 1em;
+	bottom: 1em;
+}
+
+div#eeg span{display:none;}
+
+div#footer{
+	background:transparent;
+	color: #666666;
+	font-size: 76%;
+	clear:both;
+	border-top: 1px solid #666666;
+	margin-top: 5em;
+	width: 100%;
+}
+ul.item-list{
+	border: 2px solid #bad9e5;
+	background: #dbf2fb;
+	color: #2974a5;
+	list-style-type: square;
+	padding: 1em 1em 1em 2.5em;
+	margin: 1%;
+	width: 15%;
+}
+ul ul{padding: 0; margin: 0;}
+
+ul{list-style-type:square;}
+form#bwSelection{
+	width: 55%;
+	margin: 0 auto;
+	padding: 1em;
+}
+form#bwSelection label{
+	display: block;
+	white-space: nowrap;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+form#contact{width: 80%;}
+
+form#contact input.text, textarea{width: 95%; display:block; margin: 0 auto;}
+input[type=text], textarea				{border: 1px solid #cccccc; background: #ffffff url("../images/input-gradient.png") repeat-x; color: #666666;}
+input[type=text]:focus, textarea:focus	{border: 1px solid #cc9999; background: #ffffff url("../images/input-gradient-focus.png") repeat-x; color: #b96868;}
+p.controls{width: 10em; margin: 3% auto;}
+
+form#bwSelection fieldset, fieldset.contact{
+	background: #dbf2fb;
+	color: #2974a5;
+	border: 2px solid #bad9e5;
+	padding: 2%;
+	position: relative;
+	margin-top:1em; padding-top:.75em;
+}
+
+fieldset.contact label{display: block; padding: 2% 0;}
+
+form#bwSelection legend, fieldset.contact legend{
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	padding: 0.1em 0.5em;
+	/* next three lines fix legend/fieldset background on MSIE */
+	position:absolute;
+	top: -1.0em;
+	left: .5em;
+}
+
+ul#menu{
+	position: absolute;
+	top: 130px;
+	right: 15%;
+	font-size: 110%;
+}
+
+ul#menu li{
+	display:inline;
+	font-weight: bold;
+}
+ul#menu a:link, ul#menu a:visited, ul#menu a:hover{
+	background: transparent;
+	text-decoration: none;
+	font-weight: bold;
+}
+ul#menu a:link		{background: transparent; color: #000000;}
+ul#menu a:visited	{color: #8a8e27;}
+ul#menu a:hover		{color: #000000; text-decoration: underline;}
+
+ul#menu a#current{
+	background: transparent;
+	color: #6c0000;
+}
+
+#languagebar {
+	position:absolute;
+	right:9%;
+	top:155px;
+	list-style-type:none;
+}
+a span{display:none;}
+
+img{
+	background: #ffffff;
+	border: 1px solid #999999;
+	padding: 0.5em;
+}
+img.floatleft	{float:left; margin: 0.5em 1em 0 0;}
+img.floatright	{float:right; margin: 0em 0 0 0.5em;}
+div#moviecontainer-high	{margin: 0 auto; width: 640px;}
+div#moviecontainer-low	{margin: 0 auto; width: 320px;}
+.hide{display:none;}
+div.warning{
+	background: #F8FFCC url("../images/warning.png") 5% 50% no-repeat;
+	border: 1px solid #ffaaaa;
+	color: #000000;
+	padding: 2em 1em 2em 6em;
+	margin: 0.5em auto;
+	width: 70%;
+	font-size: small;
+}
+div.imagerow{width: 100%; margin: 0 auto;}
+div.imagerow a{padding: 0 0.5em;}
