@@ -69,14 +69,6 @@ div#footer{
 	margin-top: 5em;
 	width: 100%;
 }
-
-.notice{
-	border: 5px solid red;
-	background-color: #ffffff;
-	padding: 1em;
-}
-
-
 ul.item-list{
 	border: 2px solid #bad9e5;
 	background: #dbf2fb;
